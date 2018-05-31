@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="main-nav navbar navbar-expand-lg navbar-light bg-info navbar sticky-top"> 
+        <img class="navbar-brand" src="https://www.mariowiki.com/images/thumb/5/57/Powerup-mini-mushroom-sm.png/200px-Powerup-mini-mushroom-sm.png" width="50px" height="50px" alt="logo"> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+                <li class="nav-item active"><a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a> </li>
+                <li class="nav-item active"><a class="nav-link" href="#">Read more <span class="sr-only">(current)</span></a> </li>
+                 <li class="nav-item active"><a class="nav-link" href="#">Game <span class="sr-only">(current)</span></a> </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" > 
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> 
+                <button class="btn btn-info my-2 my-sm-0 border border-white" type="submit" class="search">Search</button>
+            </form>
+        </div>
+    </nav>
+
+<main>
+    <div class="container">
+        <div class="row gameContainer">
+            <div class="col-md-12 marioContainer" style="margin-top: 25px;"y>
+                <img id="animate" src="https://orig00.deviantart.net/b7a2/f/2014/320/2/3/mario_png_by_ghassly-d86n5t6.png" width="100px" height="100px">
+        
+                <div id="score" style="text-align: center;" class="font-weight-bold">0</div>
+            </div>
+            <div class="col-md-12 text-center">
+                <button class="btn btn-success" id="startButton" onclick="mario.init('.marioContainer')">Start</button>
+                <button class="btn btn-success" id="stopButton" onclick="mario.init('.marioContainer')">Stop</button>
+
+            </div>
+        </div>
+
+        <div class="row quote-block">
+            <div class="col-md-12">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="row aboutUsBlock">
+            <div class="col-md-12">
+                <h2>About Us</h2>
+            </div>
+            <div class="col-md-8">
+                <p class="text-justify bg-info" style="min-height: 400px;">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                    <br>
+                    <br>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-justify bg-info" style="min-height: 400px;">
+                    <img id="bilde" src="https://art.pixilart.com/08908fe58fdb62f.gif">
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form Contrary to popular belief accompanied by.
+                   
+                                                                         
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row cardBlock">
+            <div class="col-md-12">
+                <h2>Read more</h2>
+            </div>
+            <div class="col-md-3">
+                <div class="card"> 
+                    <img class="card-img-top" src="http://pixelartmaker.com/art/194c1ca8e98d80a.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        <a href="http://draugiem.lv" class="btn btn-primary">Go somewhere</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card"> 
+                    <img class="card-img-top" src="http://pixelartmaker.com/art/194c1ca8e98d80a.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        <a href="http://delfi.lv" class="btn btn-primary">Go somewhere</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card"> 
+                    <img class="card-img-top" src="http://pixelartmaker.com/art/194c1ca8e98d80a.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        <a href="http://facebook.com" class="btn btn-primary">Go somewhere</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card"> 
+                    <img class="card-img-top" src="http://pixelartmaker.com/art/194c1ca8e98d80a.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                        <a href="http://google.com" class="btn btn-primary">Go somewhere</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    <footer class="main-footer bg-info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 text-left">Made by Me</div>
+                <div class="col-md-4 text-right">All rights reserved &copy; 2018</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+nav.main-nav li a.nav-link { 
+    color: #ffffff !important; 
+}
+
+.quote-block { 
+    border-top: 1px #c4c4c4 solid; 
+    border-bottom: 1px #c4c4c4 solid; 
+    margin-top:20px; 
+    margin-bottom: 20px; 
+}
+
+.quote-block blockquote { 
+    margin: 25px 0px; 
+}
+
+.quote-block blockquote p, 
+.cardBlock p { 
+    color: #000000; 
+    background:transparent; 
+    padding: 0; 
+}
+
+footer.main-footer { 
+    background: #373636;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#bilde{
+    border-radius:1000px;
+    width: 100px;
+    height: 100px;
+    display:block;
+    margin:auto;
+    object-fit: cover;
+}
+#animate{
+    background-color: none;
+    position: absolute;
+}
+.marioContainer{
+    min-height: 300px;
+    position: relative;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/06/34/7956298ae43266e.jpg);
+}
+
+#score{
+    font-size: 40px;
+}
+
+
+p {
+    padding: 40px; 
+    background: #313131; 
+    color: #ffffff;
+}
+
+.cardBlock {
+    border-bottom: 1px solid #c4c4c4; 
+    padding-bottom: 20px;
+}
+
+.aboutUsBlock {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.gameContainer {
+    margin-top:20px;
+}
+
+.gameContainer button {
+    margin: 10px 0;
+}
+
